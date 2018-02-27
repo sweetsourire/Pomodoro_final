@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="pomodoro.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700" rel="stylesheet">  
+  <script src="pomodorooo.js"></script>
+  <title>Pomodoro Clock</title>
+</head>
+<body>
+  <main>
+  	<h1>Pomodoro clock</h1>
+  	<div class="grid">
+	  <div class="box food">Set the timer for
+  		<select id="pasta">
+  		  <option id="0">I meant, pasta</option> 
+		  <option id="1">Pappardelle</option> 	  
+		  <option id="2">Penne</option>
+		  <option id="3">Farfalle</option>
+		  <option id="4">Bucatini</option>
+		  <option id="5">Angel Hair</option>
+		  <option id="6">Gnocchi</option>
+		  <option id="7">Orecchiette</option>
+		  <option id="8">Just boiled eggs</option>
+		  <option id="9">Take me to Seamless already</option>
+		</select> <!-- deleted form -->
+	  </div>
+	  <!-- a click box that has various food options, default set for each food -->
+	  <div class="box clock">Start</div>
+	  <!-- a blank circle. will be filled red-->
+	  <div class="box settimer">
+            <div class="decrement icon"><i class="fas fa-caret-left"></i></div>
+            <div id="mins">Ready</div> <!-- deleted span -->
+            <div class="increment icon"><i class="fas fa-caret-right"></i></div>
+	  </div>
+	  <!-- timer set. increment and decrement enabled -->
+	  <div class="box pause">Pause</div>
+	  <!-- break set. increment and decrement enabled -->
+	</div>
+  </main>
+</body>
+</html>
